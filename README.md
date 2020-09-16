@@ -9,7 +9,7 @@ the capabilities and limits of Bash.
 ## baseball.sh
 
 An animation of a baseball being thrown through your window.
-![](https://gfycat.com/amusinghideousizuthrush.gif)
+![baseball](https://gfycat.com/amusinghideousizuthrush.gif)
 
 ## bendypipes.sh
 
