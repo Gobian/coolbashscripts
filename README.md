@@ -22,6 +22,7 @@ An animation of a baseball being thrown through your window.
 ## bendypipes.sh
 
 The primitive version of **pipes.sh**. Attempts to mimic the classic Windows screensaver.
+
 ![](https://github.com/Gobian/coolbashscripts/blob/master/gifs/bendypipes.gif)
 
 ## branch.sh
@@ -39,6 +40,7 @@ A moving cigarette with drifting smoke.
 ## colorspray.sh
 
 A barrage of randomly placed, randomly chosen colors.
+
 (apologies for this gif in particular, you know how gif color palettes are)
 
 ![](https://github.com/Gobian/coolbashscripts/blob/master/gifs/colorspray.gif)
@@ -61,7 +63,7 @@ Arcs of electricity.
 
 ![](https://github.com/Gobian/coolbashscripts/blob/master/gifs/electricity.gif)
 
-# flyover.sh
+## flyover.sh
 
 A birds eye view of a field overgrowing with weeds.
 
