@@ -10,7 +10,7 @@ the capabilities and limits of Bash.
 
 An animation of a baseball being thrown through your window.
 
-![baseball](https://github.com/Gobian/coolbashscripts/blob/master/mp4/baseball.gif
+![baseball](https://github.com/Gobian/coolbashscripts/blob/master/mp4/baseball.gif)
 
 ## bendypipes.sh
 
