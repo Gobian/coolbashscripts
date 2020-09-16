@@ -17,7 +17,7 @@ out on your command line.
 
 An animation of a baseball being thrown through your window.
 
-![](https://github.com/Gobian/coolbashscripts/blob/master/mp4/baseball.gif)
+![](https://github.com/Gobian/coolbashscripts/blob/master/gifs/baseball.gif)
 
 ## bendypipes.sh
 
