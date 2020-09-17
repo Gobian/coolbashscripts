@@ -14,7 +14,7 @@ laydirt() {
   tput cup $ROW $LINES
   echo " "
   for p in $(seq 1 ${COL}); do
-    if [[ $((RANDOM % 4)) -eq 0 ]]; then
+    if [[ $((RANDOM % 3)) -eq 0 ]]; then
       echo -n "."
     else
       echo -n " "
