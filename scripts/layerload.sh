@@ -5,12 +5,12 @@ EXCMD="echo -n ' ' && tput cnorm && tput cup $ROW 0"
 trap "$EXCMD" EXIT
 tput civis
 
-FCHAN=${1:-50}
-SCHAN=${2:-60}
-TCHAN=${3:-80}
-SHADES=("▓"  "▒"  "░")               #Loading colors
-CHANCE=("$FCHAN" "$SCHAN" "$TCHAN")  #% chance to advance
-INDS=("0" "0" "0")                   #Current location of layers
+FCHAN=${1:-20}
+SCHAN=${2:-35}
+TCHAN=${3:-70}
+SHADES=("\e[97m▓\e[0m"  "\e[94m▓\e[0m"  "\e[34m▒\e[0m")  #Loading colors
+CHANCE=("$FCHAN" "$SCHAN" "$TCHAN")                      #% chance to advance
+INDS=("0" "0" "0")                                       #Current location of layers
 
 
 while [[ ${INDS[0]} -le $COL ]]; do
@@ -29,7 +29,7 @@ while [[ ${INDS[0]} -le $COL ]]; do
       CHAR=${SHADES[$i]}
       while [[ $CURCOL -le ${INDS[$i]} ]]; do
           tput cup $ROW $CURCOL
-          echo -n "$CHAR"
+          echo -ne "$CHAR"
           CURCOL=$((CURCOL + 1))
       done
   done
