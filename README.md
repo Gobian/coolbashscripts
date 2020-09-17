@@ -67,6 +67,8 @@ Arcs of electricity.
 
 A birds eye view of a field overgrowing with weeds.
 
+![](https://github.com/Gobian/coolbashscripts/blob/master/gifs/flyover.gif)
+
 ## foam.sh
 
 A voluminous stream of foam.
